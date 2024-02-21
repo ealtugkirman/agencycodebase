@@ -13,7 +13,7 @@ export default function index() {
     return (
         <div className={styles.header}>
             <div className={styles.bar}>
-                <Link href="/" className='text-newcolor' >DigitalVoyage.agency</Link>
+                <Link href="/" className='text-newcolor' >DigitalVoyage</Link>
                 <div onClick={() => {setIsActive(!isActive)}} className={styles.el}>
                     <div className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}></div>
                     <div className={styles.label}>
