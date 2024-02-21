@@ -33,7 +33,9 @@ export default function Home() {
       <AnimatePresence mode='wait'>
         { isLoading && <Preloader /> }
       </AnimatePresence>
-      <Homen />
+      <div className="hidden lg:block" >
+        <Homen />
+     </div>
       <Herosection />
       <LogoSlider />
       <Features />
