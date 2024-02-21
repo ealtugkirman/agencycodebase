@@ -9,7 +9,7 @@ import last from "../../public/blogs/seo.jpg";
 import Link from "next/link";
 export const Features = () => {
   return (
-    <section className=" mx-24 py-32 text-slate-800">
+    <section className="mx-4 md:mx-12 lg:mx-24 py-6 md:py-24 lg:py-32 text-slate-800">
       <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
         <h2 className="max-w-lg text-3xl font-bold md:text-5xl">
           Biz olmadan
@@ -56,7 +56,7 @@ export const Features = () => {
       <div className="grid grid-cols-12 gap-4">
         <BounceCard className="col-span-12 md:col-span-8">
           <CardTitle>Terimler Rehberi</CardTitle>
-          <div className="absolute bottom-0 left-4 right-4 top-24 translate-y-8 rounded-t-2xl bg-gradient-to-br from-green-400 to-emerald-400 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
+          <div className="absolute bottom-0 left-4 right-4 top-32 md:top-24 translate-y-8 rounded-t-2xl bg-gradient-to-br from-green-400 to-emerald-400 transition-transform duration-[250ms] group-hover:translate-y-4 group-hover:rotate-[2deg]">
             <Link href="blogs/dic">
               <Image
                 className="rounded-t-2xl"

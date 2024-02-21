@@ -7,18 +7,18 @@ import { TypeAnimation } from "react-type-animation";
 
 const Herosection = () => {
   return (
-    <div className="flex flex-col pt-16 h-max">
+    <div className="flex flex-col lg:pt-16 h-max">
       <div className="flex ml-4 md:ml-28 text-gradient space-y-4 pt-32 justify-start text-left">
         <div>
           {" "}
-          <h2 className="text-lg md:text-xl">
+          <h2 className="text-sm md:text-xl">
             Digital Voyage, Türkiye merkezli yeni nesil çözümler sunan dijital
             danışmanlık ve web geliştirme ajansıdır.
           </h2>
-          <h1 className="text-8xl  md:text-8xl font-bold">
+          <h1 className=" text-5xl md:text-6xl  lg:text-8xl   font-bold">
             YOLCULUGUNUZ ARTIK
           </h1>
-          <span className="text-gradient text-8xl md:text-8xl font-bold">
+          <span className="text-gradient text-5xl md:text-6xl  lg:text-8xl font-bold">
             <TypeAnimation
               sequence={[
                 "DİKKAT ÇEKİCİ",
@@ -36,12 +36,12 @@ const Herosection = () => {
           </span>
         </div>
       </div>
-      <div className="hidden md:flex mt-32 justify-between ">
-        <div className="flex text-2xl w-1/3 mx-12 md:mx-0 md:ml-28">
+      <div className="flex flex-col md:flex-row mt-12 lg:mt-24 md:mt-32 justify-between ">
+        <div className="flex text-sm md:text-lg lg:text-2xl md:w-1/3 mx-4 mr-6 md:mx-0 md:ml-28">
           Müşterilerinizin sizin hakkınızda olumlu bir karara varması ilk 7
           saniyede gerçekleşir. <br /> Bizim için 5 saniye yeterli.
         </div>
-        <div className=" w-1/3 text-left text-xl mr-44">
+        <div className="px-2 md:w-1/3 md:text-left text-sm md:text-lg lg:text-xl md:mr-44">
           <Accordion variant="light" className="">
             <AccordionItem
               key="1"

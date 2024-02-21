@@ -11,34 +11,34 @@ import Image from "next/image";
 
 const LogoSlider = () => {
   return (
-    <div className=" h-60 py-24 items-center">
-      <h1 className="text-dark  text-2xl font-bold opacity-50 text-center">
+    <div className="h-60 py-12 md:py-16 lg:py-24 items-center">
+      <h1 className="text-dark text-xl lg:text-2xl font-bold opacity-70 text-center">
         Müşterilerimiz
       </h1>
       <Slider
         className="shadow-xl"
-        width="300px"
+        width="250px"
         duration={15}
         // pauseOnHover={true}
         blurBorders={false}
         blurBoderColor={"#fff"}>
         <Slider.Slide>
-          <Image src={tecvity} alt="any" className="w-48" />
+          <Image src={tecvity} alt="any" className="w-32 xl:w-48" />
         </Slider.Slide>
         <Slider.Slide>
-          <Image src={psykri} alt="any3" className="w-48" />
+          <Image src={psykri} alt="any3" className="w-32 xl:w-48" />
         </Slider.Slide>
         <Slider.Slide>
-          <Image src={hakemportal} alt="any2" className="w-48" />
+          <Image src={hakemportal} alt="any2" className="w-32 xl:w-48" />
         </Slider.Slide>
         <Slider.Slide>
-          <Image src={cognizer} alt="any3" className="w-48" />
+          <Image src={cognizer} alt="any3" className="w-32 xl:w-48" />
         </Slider.Slide>
         <Slider.Slide>
-          <Image src={voyage} alt="any3" className="w-48" />
+          <Image src={voyage} alt="any3" className="w-32 xl:w-48" />
         </Slider.Slide>
         <Slider.Slide>
-          <Image src={atilogo} alt="any3" className="w-48" />
+          <Image src={atilogo} alt="any3" className="w-32 xl:w-48" />
         </Slider.Slide>
 
         {/* <Slider.Slide>
