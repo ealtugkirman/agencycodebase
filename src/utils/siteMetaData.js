@@ -1,10 +1,10 @@
 // please update required information
 const siteMetadata = {
-  title: "Altcoinvoyage.com",
-  author: "AltcoinVoyage.com",
+  title: "DigitalVoyage.Agency",
+  author: "DigitalVoyage.Agency",
   headerTitle: "this.altcoinvoyage.com",
   name: "google-adsense-account",
-  content: "ca-pub-8265654758847402",
+  // content: "ca-pub-8265654758847402",
 
   description:
     "Welcome to AltcoinVoyage, your timeless portal to the realm of alternative cryptocurrencies",
