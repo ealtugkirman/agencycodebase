@@ -15,10 +15,10 @@ const Herosection = () => {
             Digital Voyage, Türkiye merkezli yeni nesil çözümler sunan dijital
             danışmanlık ve web geliştirme ajansıdır.
           </h2>
-          <h1 className=" text-5xl md:text-6xl pt-6 md:pt-0 lg:text-8xl   font-bold">
+          <h1 className=" text-4xl md:text-6xl pt-6 md:pt-0 lg:text-8xl   font-bold">
             YOLCULUGUNUZ ARTIK
           </h1>
-          <span className="text-gradient text-5xl md:text-6xl  lg:text-8xl font-bold">
+          <span className="text-gradient text-4xl md:text-6xl  lg:text-8xl font-bold">
             <TypeAnimation
               sequence={[
                 "DİKKAT ÇEKİCİ",

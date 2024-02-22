@@ -16,12 +16,12 @@ import { CalendarDaysIcon, HandRaisedIcon } from '@heroicons/react/24/outline'
 
 export default function NewsLetter() {
   return (
-    <div className="relative isolate overflow-hidden bg-first rounded-3xl mx-12 py-16 ">
+    <div className="relative isolate overflow-hidden bg-first rounded-3xl mx-2 md:mx-12 py-16 ">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
             <h2 className="text-2xl font-bold tracking-tight text-white md:text-4xl">Subscribe to our newsletter.</h2>
-            <p className="mt-4 text-sm leading-8 text-gray-300">
+            <p className="mt-4 text-sm md:leading-8 text-gray-300">
               Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt
               dolore.
             </p>
