@@ -62,7 +62,7 @@ const Herosection = () => {
                 Web ve mobil uygulama geliştiricilerimiz, görsel ve performans
                 mükemmelliğine ulaşmaya adanmıştır. Backend'den frontend'e, tüm
                 cihazlarda sorunsuz ve keyifli bir kullanıcı deneyimi sunmayı
-                önceliklendiriyoruz.
+                önemsiyoruz.
               </p>
             </AccordionItem>
             <AccordionItem
