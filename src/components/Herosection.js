@@ -41,7 +41,7 @@ const Herosection = () => {
           Müşterilerinizin sizin hakkınızda olumlu bir karara varması ilk 7
           saniyede gerçekleşir. <br /> Bizim için 5 saniye yeterli.
         </div>
-        <div className="px-2 md:w-1/3 md:text-left text-sm md:text-lg lg:text-xl md:mr-44">
+        <div className="px-2 md:w-1/3 pt-3 md:pt-0 md:text-left text-sm md:text-lg lg:text-xl md:mr-44">
           <Accordion variant="light" className="">
             <AccordionItem
               key="1"

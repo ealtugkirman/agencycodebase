@@ -13,7 +13,7 @@ export const Features = () => {
       <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
         <h2 className="max-w-lg text-3xl font-bold md:text-5xl">
           Biz olmadan
-          <span className="text-slate-400"> yolunuza başlamayın</span>
+          <span className="text-first opacity-80"> yolunuza başlamayın</span>
         </h2>
         <Link href="/blog">
           {" "}

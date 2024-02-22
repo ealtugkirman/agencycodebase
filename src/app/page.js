@@ -8,6 +8,8 @@ import { AnimatePresence } from "framer-motion";
 import Homen from "../components/Homen/Homen";
 import Preloader from "../components/Preloader"
 import LogoSlider from "../components/LogoSlider";
+import WhoAreWe from "../components/WhoAreWe";
+import WorkWithUs from "../components/WorkWithUs";
 
 export default function Home() {
 
@@ -39,6 +41,8 @@ export default function Home() {
       <Herosection />
       <LogoSlider />
       <Features />
+      <WhoAreWe />
+      <WorkWithUs />
     </main>
   );
 }

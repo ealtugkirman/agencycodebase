@@ -8,7 +8,7 @@ html{
 
 @layer base {
   .text-gradient {
-    @apply text-transparent bg-gradient-to-r from-blue-900 bg-clip-text via-red-900 to-black text-5xl;
+    @apply text-transparent bg-gradient-to-r from-first bg-clip-text via-red-900 to-black text-5xl;
   }
   .quote {
     @apply p-5 bg-blue-400 border-l-8 text-xl font-medium border-blue-900 bg-opacity-25
