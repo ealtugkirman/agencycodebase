@@ -1,5 +1,5 @@
 import React from "react";
-import footerImage from "../../../public/footerImage.svg";
+import footerImage from "../../../public/footerImage.webp";
 import Image from "next/image";
 
 const Footer = () => {
