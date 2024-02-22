@@ -6,6 +6,7 @@ import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
 import Header from '../components/header';
 import { GoogleTagManager } from "@next/third-parties/google";
+import NewsLetter from "../components/NewsLetter";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -65,8 +66,9 @@ export default function RootLayout({ children }) {
           crossorigin="anonymous"></Script>
         <div className="" />
         <Header />
-        {children}
-        {/* <Footer /> */}
+        { children }
+        <NewsLetter />
+        <Footer />
       </body>
     </html>
   );

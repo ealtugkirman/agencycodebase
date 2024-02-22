@@ -68,7 +68,7 @@ export default function NewsLetter() {
               />
               <dt className="mt-2 text-sm font-semibold text-white">Spam Yok</dt>
               <dd className="mt-1 hidden md:block text-sm md:text-md md:leading-7 text-gray-300">
-                E-posta adresiniz üçüncü taraflarla paylaşılmaz. Reklam, kampanya vb. içerikli mailler  gönderilmez
+                E-posta adresiniz üçüncü taraflarla paylaşılmaz. Reklam, kampanya vb. içerikli mailler  gönderilmez.
               </dd>
             </div>
           </dl>
