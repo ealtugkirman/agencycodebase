@@ -12,7 +12,7 @@ export default function WhoAreWe() {
               <p className="text-base font-semibold leading-3 text-indigo-600">
                 Digital Voyage Hakkında
               </p>
-              <h1 className="mt-2 text-2xl font-bold  text-black underline md:text-3xl">
+              <h1 className="mt-2 text-2xl font-bold  text-black md:text-3xl">
                 Yolculuğunuzu Geleceğe Taşıyoruz{" "}
               </h1>
               <p className="mt-6 text-xl leading-6 font-mr text-gray-700">
@@ -32,19 +32,19 @@ export default function WhoAreWe() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-4 lg:px-4">
           <div className="">
             <div className="max-w-xl text-base  text-gray-700 lg:max-w-lg">
-              <p>
+              {/* <p>
                 Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
                 risus enim. Mattis mauris semper sed amet vitae sed turpis id.
                 Id dolor praesent donec est. Odio penatibus risus viverra tellus
                 varius sit neque erat velit. Faucibus commodo massa rhoncus,
                 volutpat. Dignissim sed eget risus enim. Mattis mauris semper
                 sed amet vitae sed turpis id.
-              </p>
-              <ul role="list" className="mt-8 space-y-8 text-gray-600">
+              </p> */}
+              <ul role="list" className="mt-6 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   {/* <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" /> */}
                   <span>
-                    <strong className="font-semibold text-first underline">
+                    <strong className="font-semibold text-first">
                       Yenilikçi Yaklaşım{" "}
                     </strong>{" "}
                     Klasik ve sıkıcı ajans modellerini bir kenara bırakıyor, her
@@ -55,7 +55,7 @@ export default function WhoAreWe() {
                 <li className="flex gap-x-3">
                   {/* <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" /> */}
                   <span>
-                    <strong className="font-semibold text-first underline">
+                    <strong className="font-semibold text-first">
                       Teknoloji ile İç İçe
                     </strong>{" "}
                     En yeni dijital araçları ve teknolojileri kullanarak,
@@ -66,7 +66,7 @@ export default function WhoAreWe() {
                 <li className="flex gap-x-3">
                   {/* <LockClosedIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" /> */}
                   <span>
-                    <strong className="font-semibold text-first underline">
+                    <strong className="font-semibold text-first">
                       Sonuç Odaklı
                     </strong>{" "}
                     Yalnızca görsel ve teknik çözümler sunmakla kalmıyor,
@@ -77,7 +77,7 @@ export default function WhoAreWe() {
                 <li className="flex gap-x-3">
                   {/* <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" /> */}
                   <span>
-                    <strong className="font-semibold text-first underline">
+                    <strong className="font-semibold text-first">
                       Kişiye Özel Çözümler
                     </strong>{" "}
                     Her markanın bir hikayesi vardır ve biz bu hikayeyi dünyaya
@@ -88,22 +88,26 @@ export default function WhoAreWe() {
                 </li>
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Digital Voyage ile dijital dünyada yeni bir yolculuğa çıkmaya
+                hazır olun. Geleneksel ajans modellerinden sıyrılarak, markanızı
+                geleceğe taşıyacak yenilikçi ve etkili dijital stratejiler
+                geliştirelim. İster yeni bir marka olun ister sektörde uzun
+                yıllardır var olan bir isim, sizin için en uygun rotayı birlikte
+                belirleyelim. Digital Voyage, sizi ve markanızı dijital
+                geleceğin zirvesine taşımaya hazır.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-first underline">
-                No server? No problem.
+              <h2 className="mt-16 text-2xl font-bold tracking-tight text-first">
+                Hem Çalışalım Hem Öğretelim: Bilgiyi Paylaşmanın Gücü
               </h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-                vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-                pellentesque id sed tellus mauris, ultrices mauris. Tincidunt
-                enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                Digital Voyage olarak bizler, "Hem Çalışalım Hem Öğretelim"
+                mottosu ile yola çıkıyoruz. Bu yaklaşım, markamızın dijital
+                dünyada sadece hizmet sağlayıcı olmadığını, aynı zamanda bilgi
+                ve deneyim paylaşımında da öncü bir rol üstlendiğini vurgular.
+                Müşterilerimizle iş birliği yaparken, onlara sadece çözümler
+                sunmakla kalmıyor, dijital dünyanın karmaşık yapısını anlamaları
+                ve bu alanda kendilerini geliştirmeleri için gereken bilgileri
+                de paylaşıyoruz.
               </p>
             </div>
           </div>
