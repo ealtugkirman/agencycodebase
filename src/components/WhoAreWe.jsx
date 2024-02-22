@@ -9,13 +9,13 @@ export default function WhoAreWe() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-4 lg:px-4">
           <div className="lg:pr-4">
             <div className="lg:max-w-xl">
-              <p className="text-base font-semibold leading-3 text-indigo-600">
+              <p className="sm:text-lg md:text-xl lg:text-2xl  font-semibold leading-3 text-indigo-600">
                 Digital Voyage Hakkında
               </p>
-              <h1 className="mt-2 text-2xl font-bold  text-black md:text-3xl">
+              <h1 className="mt-2 sm:text-lg md:text-xl lg:text-2xl font-bold  text-black ">
                 Yolculuğunuzu Geleceğe Taşıyoruz{" "}
               </h1>
-              <p className="mt-6 text-xl leading-6 font-mr text-gray-700">
+              <p className="mt-4 md:mt-6 text-sm  md:text-lg lg:text-xl leading-6 font-mr text-gray-700">
                 Digital Voyage, adını büyük keşiflerin ve maceraların başlangıcı
                 olan "yolculuk" kavramından alır. Bizler, dijital dünyanın
                 sonsuz olanaklarını keşfetmeniz için size rehberlik eden bir
@@ -31,7 +31,7 @@ export default function WhoAreWe() {
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-4 lg:px-4">
           <div className="">
-            <div className="max-w-xl text-base  text-gray-700 lg:max-w-lg">
+            <div className="max-w-xl  text-sm lg:text-base  text-gray-700 lg:max-w-lg">
               {/* <p>
                 Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
                 risus enim. Mattis mauris semper sed amet vitae sed turpis id.
@@ -40,7 +40,7 @@ export default function WhoAreWe() {
                 volutpat. Dignissim sed eget risus enim. Mattis mauris semper
                 sed amet vitae sed turpis id.
               </p> */}
-              <ul role="list" className="mt-6 space-y-8 text-gray-600">
+              <ul role="list" className="md:mt-6 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   {/* <CloudArrowUpIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" /> */}
                   <span>
@@ -77,7 +77,7 @@ export default function WhoAreWe() {
                 <li className="flex gap-x-3">
                   {/* <ServerIcon className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" /> */}
                   <span>
-                    <strong className="font-semibold text-first">
+                    <strong className="font-semibold  text-first">
                       Kişiye Özel Çözümler
                     </strong>{" "}
                     Her markanın bir hikayesi vardır ve biz bu hikayeyi dünyaya
@@ -96,10 +96,10 @@ export default function WhoAreWe() {
                 belirleyelim. Digital Voyage, sizi ve markanızı dijital
                 geleceğin zirvesine taşımaya hazır.
               </p>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-first">
+              <h2 className="mt-16 text-lg md:text-xl lg:text-2xl tracking-tight text-first">
                 Hem Çalışalım Hem Öğretelim: Bilgiyi Paylaşmanın Gücü
               </h2>
-              <p className="mt-6">
+              <p className="mt-2 md:mt-4 lg:mt-6 text-sm md:text-lg lg:text-xl ">
                 Digital Voyage olarak bizler, "Hem Çalışalım Hem Öğretelim"
                 mottosu ile yola çıkıyoruz. Bu yaklaşım, markamızın dijital
                 dünyada sadece hizmet sağlayıcı olmadığını, aynı zamanda bilgi

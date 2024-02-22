@@ -16,11 +16,11 @@ import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
 
 export default function NewsLetter() {
   return (
-    <div className="relative isolate overflow-hidden bg-first rounded-3xl mx-2 md:mx-12 py-16 ">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="relative items-center isolate overflow-hidden bg-first rounded-3xl mx-2 md:mx-12 py-16 md:py-16 ">
+      <div className="mx-auto max-w-6xl px-4 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg">
-            <h2 className="text-2xl font-bold tracking-tight text-white md:text-4xl">
+            <h2 className="text-lg md:text-xl lg:text-2xl font-bold tracking-tight text-white">
               Bültenimize Abone Olun
             </h2>
             <p className="mt-4 text-sm md:leading-8 text-gray-300">
@@ -29,7 +29,7 @@ export default function NewsLetter() {
             </p>
             <div className="mt-6 flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
-                Mail Adresinşz
+                Mail Adresiniz
               </label>
               <input
                 id="email-address"
@@ -47,13 +47,13 @@ export default function NewsLetter() {
               </button>
             </div>
           </div>
-          <dl className="flex flex-row items-center justify-between text-left text-wrap gap-x-8 gap-y-6  lg:pt-2">
+          <dl className="hidden lg:flex flex-row items-center lg:justify-between text-left text-wrap gap-x-8 gap-y-6  lg:pt-2">
             <div className="flex flex-col items-start">
               <CalendarDaysIcon
                 className="h-6 w-6 text-white"
                 aria-hidden="true"
               />
-              <dt className="mt-2 text-nd font-semibold text-white">
+              <dt className="mt-2 text-sm font-semibold text-white">
                 Haftalık Makaleler
               </dt>
               <dd className="mt-1 text-sm  hidden md:block md:text-nd  md:leading-7 text-gray-300">
@@ -66,7 +66,7 @@ export default function NewsLetter() {
                 className="h-6 w-6 text-white"
                 aria-hidden="true"
               />
-              <dt className="mt-2 text-md font-semibold text-white">Spam Yok</dt>
+              <dt className="mt-2 text-sm font-semibold text-white">Spam Yok</dt>
               <dd className="mt-1 hidden md:block text-sm md:text-md md:leading-7 text-gray-300">
                 E-posta adresiniz üçüncü taraflarla paylaşılmaz. Reklam, kampanya vb. içerikli mailler  gönderilmez
               </dd>

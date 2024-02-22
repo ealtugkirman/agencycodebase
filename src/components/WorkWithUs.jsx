@@ -2,7 +2,7 @@ import Image from "next/image";
 import bg from "../../public/whoarewe.avif";
 const links = [
   { name: "Web Geliştirme", href: "#" },
-  { name: "Uygulama Geliştirme", href: "#" },
+  { name: "Mobil Uygulama", href: "#" },
   { name: "Medya Yönetimi", href: "#" },
   { name: "Dijital Ürünler", href: "#" },
 ];
@@ -35,14 +35,14 @@ export default function WorkWithUs() {
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-          <div className="grid grid-cols-1 gap-x-8 gap-y-6 text-base font-light leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+          <div className="grid grid-cols-2 gap-x-1 gap-y-2 text-base font-light leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
             {links.map((link) => (
               <a key={link.name} href={link.href}>
                 {link.name} <span aria-hidden="true">&rarr;</span>
               </a>
             ))}
           </div>
-          <dl className="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+          <dl className="mt-16 grid grid-cols-2 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
             {stats.map((stat) => (
               <div key={stat.name} className="flex flex-col-reverse">
                 <dt className="text-base leading-7 text-gray-300">
