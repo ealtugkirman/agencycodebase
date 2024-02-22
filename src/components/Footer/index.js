@@ -145,7 +145,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
             <div>
               <p className="font-medium text-white ">
-                Services
+                Hizmetlerimiz
               </p>
 
               <ul className="mt-6 space-y-4 text-sm">
@@ -153,7 +153,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    1on1 Coaching
+                    Web Geliştirme
                   </a>
                 </li>
 
@@ -161,7 +161,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    Company Review
+                    Uygulama  Geliştirme
                   </a>
                 </li>
 
@@ -169,7 +169,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    Accounts Review
+                    Dijital Ürünler
                   </a>
                 </li>
 
@@ -177,15 +177,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    HR Consulting
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
-                    className="text-white transition hover:opacity-75 ">
-                    SEO Optimisation
+                Medya Yönetimi
                   </a>
                 </li>
               </ul>
@@ -193,7 +185,7 @@ const Footer = () => {
 
             <div>
               <p className="font-medium text-white ">
-                Company
+                DigitalVoyage.agency
               </p>
 
               <ul className="mt-6 space-y-4 text-sm">
@@ -201,7 +193,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    About
+                    Hakkımızda
                   </a>
                 </li>
 
@@ -209,7 +201,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    Meet the Team
+                    Ekip ile Tanışın
                   </a>
                 </li>
 
@@ -217,7 +209,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    Accounts Review
+                    Portfolyo
                   </a>
                 </li>
               </ul>
@@ -232,7 +224,7 @@ const Footer = () => {
                 <a
                   href="#"
                   className="text-white transition hover:opacity-75">
-                  Terms & Conditions
+                  Şartlar ve Koşullar
                 </a>
               </li>
 
@@ -240,15 +232,15 @@ const Footer = () => {
                 <a
                   href="#"
                   className="text-white transition hover:opacity-75">
-                  Privacy Policy
+                    Gizlilik Politikası
                 </a>
               </li>
 
               <li>
                 <a
-                  href="#"
+                  href="/404"
                   className="text-white transition hover:opacity-75">
-                  Cookies
+                  Easter Egg
                 </a>
               </li>
             </ul>
