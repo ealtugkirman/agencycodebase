@@ -1,5 +1,5 @@
 import React from "react";
-import footerImage from "../../../public/voyage.avif";
+import footerImage from "../../../public/footerImage.svg";
 import Image from "next/image";
 
 const Footer = () => {
