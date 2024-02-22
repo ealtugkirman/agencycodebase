@@ -10,6 +10,7 @@ import Preloader from "../components/Preloader"
 import LogoSlider from "../components/LogoSlider";
 import WhoAreWe from "../components/WhoAreWe";
 import WorkWithUs from "../components/WorkWithUs";
+import NewsLetter from "../components/NewsLetter";
 
 export default function Home() {
 
@@ -41,8 +42,9 @@ export default function Home() {
       <Herosection />
       <LogoSlider />
       <Features />
-      <WhoAreWe />
       <WorkWithUs />
+      <WhoAreWe />
+      <NewsLetter />
     </main>
   );
 }

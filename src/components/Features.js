@@ -9,9 +9,9 @@ import last from "../../public/blogs/seo.jpg";
 import Link from "next/link";
 export const Features = () => {
   return (
-    <section className="mx-4 md:mx-12 lg:mx-24 py-6 md:py-24 lg:py-32 text-slate-800">
-      <div className="mb-8 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end md:px-8">
-        <h2 className="max-w-lg text-3xl font-bold md:text-5xl">
+    <section className="mx-4 md:mx-12 lg:mx-24 mb-24 md:mb-0 py-6 md:py-24 lg:py-32 text-slate-800">
+      <div className="mb-8 flex items-center justify-between gap-4 flex-row md:items-end md:px-8">
+        <h2 className="max-w-lg text-2xl md:text-3xl font-bold lg:text-5xl">
           Biz olmadan
           <span className="text-first opacity-80"> yolunuza başlamayın</span>
         </h2>

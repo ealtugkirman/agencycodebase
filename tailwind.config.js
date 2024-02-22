@@ -15,7 +15,6 @@ module.exports = {
         newcolor: "#311ed6",
         accent: "#7B00D3",
         accentDark: "#ffdb4d",
-        gray: "#747474",
       },
       fontFamily:{
         mr: ["var(--font-mr)"],
