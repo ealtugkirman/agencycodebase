@@ -10,8 +10,8 @@ const HomeCoverSection = ({ blogs }) => {
   const blog = sortedBlogs[0];
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 my-12">
-      <div className="md:grid-col-1  border-4 border-black flex-col  mx-4 md:mx-20">
+    <div className="grid grid-cols-1 md:mx-12 md:grid-cols-2 my-12">
+      <div className="md:grid-col-1  border-2 border-black flex-col  mx-4 md:mx-12">
         <Image
           src={blog.image.filePath.replace("../public", "")}
           placeholder="blur"

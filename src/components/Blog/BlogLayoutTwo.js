@@ -15,14 +15,14 @@ const BlogLayoutTwo = ({ blog }) => {
             alt={blog.title}
             width={blog.image.width}
             height={blog.image.height}
-            className="aspect-square hidden md:block  border-b-2 md:border-r-2 border-black  h-full object-cover object-center group-hover:scale-105 transition-all ease duration-300"
+            className="aspect-square hidden md:block  border-b-2 md:border-b-0 md:border-r-2 border-black  h-full object-cover object-center group-hover:scale-105 transition-all ease duration-300"
             sizes="(max-width: 640px) 100vw,(max-width: 1024px) 50vw, 33vw"
           />
         </Link>
       </div>
 
       <div className="group flex py-4 flex-col items-start mx-4  justify-between  md:grid-rows-1 grid-cols-1">
-        <span className="uppercase  bg-first px-3 py-1 border-2 border-black text-light font-semibold text-xs sm:text-sm">
+        <span className="uppercase  bg-first px-3 py-1 border-2 border-black text-light font-light text-xs sm:text-sm">
           {blog.tags[0]}
         </span>
         <div>

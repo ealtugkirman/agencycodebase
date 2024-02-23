@@ -10,8 +10,7 @@ const FeaturedPosts = ({ blogs }) => {
       <h2 className="w-full inline-block font-light  text-2xl md:text-4xl text-dark ">
         ÖNE ÇIKANLAR
       </h2>
-
-      <div className="space-y-4 md:space-y-0 md:grid grid-cols-2 grid-rows-2 gap-6 mt-4  md:mt-8">
+      <div className="space-y-4 md:space-y-0 md:grid grid-cols-2 grid-rows-2 gap-8 mt-4  md:mt-12">
         <article className="col-span-2 sm:col-span-1 row-span-1 relative">
           <BlogLayoutTwo blog={sortedBlogs[0]} />
         </article>

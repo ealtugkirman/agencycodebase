@@ -6,20 +6,19 @@ import BlogLayoutThree from "../Blog/BlogLayoutThree";
 const RecentPosts = ({ blogs }) => {
   const sortedBlogs = sortBlogs(blogs);
   return (
-    <section className="w-full  mt-16 sm:mt-24 px-5 sm:px-10 md:px-24  sxl:px-32 flex flex-col items-center justify-center">
-      <div className="w-full flex  justify-between">
-        <h2 className="w-fit inline-block font-bold capitalize text-2xl md:text-4xl text-dark">
-          Recent Posts
+    <section className="w-full  mt-8 sm:mt-16 px-5 sm:px-10 md:px-24 flex flex-col items-center justify-center">
+      <div className="w-full items-center flex  justify-between">
+        <h2 className="w-fit font-light capitalize text-2xl md:text-4xl text-dark">
+          SON İÇERİKLER
         </h2>
         <Link
           href="/categories/all"
-          className="inline-block font-medium text-accent  underline underline-offset-2 text-base md:text-lg"
-        >
-          view all
+          className="capitalize text-sm md:ext-xl rounded-xl text-white bg-first  px-4 py-1 md:py-2 ">
+            Hepsini Gör
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-16 mt-16">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-12 mt-4 md:mt-12">
         {sortedBlogs.slice(0, 12).map((blog, index) => {
           return (
             <article key={index} className="col-span-1 row-span-1 relative">
