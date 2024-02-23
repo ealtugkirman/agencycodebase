@@ -1,49 +1,45 @@
-import { sortBlogs } from '@/src/utils'
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react'
-import Tag from '../Elements/Tag';
-import { slug } from 'github-slugger';
+import { sortBlogs } from "@/src/utils";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import Tag from "../Elements/Tag";
+import { slug } from "github-slugger";
 
-const HomeCoverSection = ({blogs}) => {
-
-    const sortedBlogs = sortBlogs(blogs);
-    const blog = sortedBlogs[0];
+const HomeCoverSection = ({ blogs }) => {
+  const sortedBlogs = sortBlogs(blogs);
+  const blog = sortedBlogs[0];
 
   return (
-    <div className='w-full inline-block pt-28 pb-12'>
-        <article className='flex flex-col items-start justify-end mx-5 sm:mx-24 relative h-[60vh] sm:h-[70vh]'>
-            <div className='absolute top-0 left-0 bottom-0 right-0 h-full
-            bg-gradient-to-b from-transparent from-0% to-dark/90 rounded-3xl z-0
-            ' />
-        <Image src={blog.image.filePath.replace("../public", "")}
-        placeholder='blur'
-        blurDataURL={blog.image.blurhashDataUrl}
-        alt={blog.title}
-        fill
-        className='w-full h-full object-center object-cover rounded-3xl -z-10'
-        sizes='100vw'
-        priority
+    <div className="grid grid-cols-1 md:grid-cols-2 my-12">
+      <div className="md:grid-col-1  border-4 border-black flex-col  mx-12 md:mx-20">
+        <Image
+          src={blog.image.filePath.replace("../public", "")}
+          placeholder="blur"
+          blurDataURL={blog.image.blurhashDataUrl}
+          alt={blog.title}
+          width={1000}
+          height={800}
+          className=""
+          sizes="200vw"
+          priority
         />
-
-        <div className='w-full lg:w-3/4 p-6 sm:p-8 md:p-12  lg:p-16 flex flex-col items-start justify-center z-0 text-light'>
-            <Tag link={`/categories/${slug(blog.tags[0])}`} name={blog.tags[0]} />
-            <Link href={blog.url} className='mt-6'>
-            <h1 className='font-bold capitalize text-lg sm:text-xl md:text-3xl lg:text-4xl'>
-                <span className='bg-gradient-to-r from-accent to-accent 
+      </div>
+      <div className=" md:grid-col-1 mr-12 mx-8 md:mx-0 space-y-2 md:space-y-4 flex flex-col items-center md:items-start justify-center  text-black">
+        <Tag link={`/categories/${slug(blog.tags[0])}`} name={blog.tags[0]} />
+        <Link href={blog.url} className="">
+          <h1 className="font-semibold text-xl md:text-4xl lg:text-5xl">
+            <span
+              className="bg-gradient-to-r from-first to-yellow-500 
               bg-[length:0px_6px]
-                hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 '>
-                {blog.title}
-                </span>
-            </h1>
-            </Link>
-            <p className='hidden  sm:inline-block mt-4 md:text-lg lg:text-xl font-in'>
-                {blog.description}
-            </p>
-        </div>
-    </article>
+                hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 ">
+              {blog.title}
+            </span>
+          </h1>
+        </Link>
+        <p className="mt-4  text-sm">{blog.description}</p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default HomeCoverSection
+export default HomeCoverSection;
