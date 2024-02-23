@@ -15,7 +15,7 @@ const links = [
   },
   {
     title: "Blog",
-    href: "/shop",
+    href: "/blog",
     src: "shop.png"
   },
   {

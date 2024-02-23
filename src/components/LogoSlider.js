@@ -11,8 +11,8 @@ import Image from "next/image";
 
 const LogoSlider = () => {
   return (
-    <div className="h-60 py-12 md:py-16 lg:py-24 items-center">
-      <h1 className="text-dark text-xl lg:text-2xl font-bold opacity-70 text-center">
+    <div className="h-80 py-12 md:py-16 lg:py-24 items-center">
+      <h1 className="text-dark mb-8 text-xl lg:text-2xl font-bold opacity-70 text-center">
         Müşterilerimiz
       </h1>
       <Slider
