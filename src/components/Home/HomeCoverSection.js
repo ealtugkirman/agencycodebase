@@ -11,7 +11,7 @@ const HomeCoverSection = ({ blogs }) => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 my-12">
-      <div className="md:grid-col-1  border-4 border-black flex-col  mx-12 md:mx-20">
+      <div className="md:grid-col-1  border-4 border-black flex-col  mx-4 md:mx-20">
         <Image
           src={blog.image.filePath.replace("../public", "")}
           placeholder="blur"
@@ -24,10 +24,10 @@ const HomeCoverSection = ({ blogs }) => {
           priority
         />
       </div>
-      <div className=" md:grid-col-1 mr-12 mx-8 md:mx-0 space-y-2 md:space-y-4 flex flex-col items-center md:items-start justify-center  text-black">
+      <div className=" md:grid-col-1 mr-12 mx-4 md:mx-0 space-y-2 md:space-y-4 flex flex-col items-center md:items-start justify-center  text-black">
         <Tag link={`/categories/${slug(blog.tags[0])}`} name={blog.tags[0]} />
         <Link href={blog.url} className="">
-          <h1 className="font-semibold text-xl md:text-4xl lg:text-5xl">
+          <h1 className="font-semibold text-2xl md:text-4xl lg:text-5xl">
             <span
               className="bg-gradient-to-r from-first to-yellow-500 
               bg-[length:0px_6px]

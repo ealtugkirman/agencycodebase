@@ -5,9 +5,9 @@ import React from "react";
 
 const BlogLayoutTwo = ({ blog }) => {
   return (
-    <div className="border-2  grid grid-cols-2 border-black text-dark dark:text-light">
-      <div className="grid-cols-1">
-        <Link href={blog.url} className="">
+    <div className="border-2  grid grid-cols-1  md:grid-cols-2 border-black text-dark dark:text-light">
+      <div className="grid-cols-1 md:grid-rows-1">
+        <Link href={blog.url} className="bg-red-200">
           <Image
             src={blog.image.filePath.replace("../public", "")}
             placeholder="blur"
@@ -15,13 +15,13 @@ const BlogLayoutTwo = ({ blog }) => {
             alt={blog.title}
             width={blog.image.width}
             height={blog.image.height}
-            className="aspect-square  border-r-2 border-black  h-full object-cover object-center group-hover:scale-105 transition-all ease duration-300"
+            className="aspect-square hidden md:block  border-b-2 md:border-r-2 border-black  h-full object-cover object-center group-hover:scale-105 transition-all ease duration-300"
             sizes="(max-width: 640px) 100vw,(max-width: 1024px) 50vw, 33vw"
           />
         </Link>
       </div>
 
-      <div className="group flex py-4 flex-col items-start mx-4  justify-between grid-cols-1">
+      <div className="group flex py-4 flex-col items-start mx-4  justify-between  md:grid-rows-1 grid-cols-1">
         <span className="uppercase  bg-first px-3 py-1 border-2 border-black text-light font-semibold text-xs sm:text-sm">
           {blog.tags[0]}
         </span>
@@ -38,7 +38,7 @@ const BlogLayoutTwo = ({ blog }) => {
           <p className="mt-4 text-xs">{blog.description}</p>
         </div>
 
-        <span className=" capitalize text-gray dark:text-light/50 font-semibold  text-xs sm:text-base">
+        <span className=" capitalize mt-2 text-gray dark:text-light/50 font-semibold  text-xs sm:text-base">
           {format(new Date(blog.publishedAt), "MMMM dd, yyyy")}
         </span>
       </div>
