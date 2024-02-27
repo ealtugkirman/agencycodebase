@@ -4,6 +4,16 @@ import Link from "next/link";
 import React from "react";
 
 const BlogLayoutTwo = ({ blog }) => {
+
+
+  function shortedBlog(desc) {
+    let word = desc.split(' ');
+    if (word.length > 12) {
+      return word.slice(0, 12).join(' ') + '...';
+    } else {
+      return desc;
+    }
+  }
   return (
     <div className="border-2  grid grid-cols-1  md:grid-cols-2 border-black text-dark dark:text-light">
       <div className="grid-cols-1 md:grid-rows-1">
@@ -35,7 +45,7 @@ const BlogLayoutTwo = ({ blog }) => {
               </span>
             </h2>
           </Link>
-          <p className="mt-4 text-xs">{blog.description}</p>
+          <p className="mt-4 text-xs">{shortedBlog(blog.description)}</p>
         </div>
 
         <span className=" capitalize mt-2 text-gray dark:text-light/50 font-semibold  text-xs sm:text-base">

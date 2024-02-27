@@ -20,7 +20,7 @@ const BlogLayoutThree = ({ blog }) => {
       </Link>
 
       <div className="flex flex-col w-full mt-4">
-        <span className="uppercase text-accent dark:text-accentDark font-semibold text-xs sm:text-sm">
+        <span className="uppercase text-accent dark:text-accentDark font-light text-xs sm:text-sm">
           {blog.tags[0]}
         </span>
         <Link href={blog.url} className="inline-block my-1">
@@ -36,7 +36,7 @@ const BlogLayoutThree = ({ blog }) => {
           </h2>
         </Link>
 
-        <span className="capitalize text-gray dark:text-light/50 font-semibold text-sm  sm:text-base">
+        <span className="capitalize text-gray dark:text-light/50 font-thin text-sm  sm:text-base">
           {format(new Date(blog.publishedAt), "MMMM dd, yyyy")}
         </span>
       </div>

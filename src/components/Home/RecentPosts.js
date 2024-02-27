@@ -13,12 +13,12 @@ const RecentPosts = ({ blogs }) => {
         </h2>
         <Link
           href="/categories/all"
-          className="capitalize text-sm md:ext-xl rounded-xl text-white bg-first  px-4 py-1 md:py-2 ">
+          className="capitalize text-sm md:ext-xl border-3 text-white bg-first  px-4 py-1 md:py-2 ">
             Hepsini Gör
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-12 mt-4 md:mt-12">
+      <div className="grid grid-cols-2 rounded-xl md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 grid-rows-2 gap-6 mt-4 md:mt-12">
         {sortedBlogs.slice(0, 12).map((blog, index) => {
           return (
             <article key={index} className="col-span-1 row-span-1 relative">
