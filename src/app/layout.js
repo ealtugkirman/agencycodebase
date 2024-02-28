@@ -4,7 +4,7 @@ import { Inter, Manrope, Work_Sans } from "next/font/google";
 import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
-import Header from '../components/header';
+import Header from "../components/header";
 import { GoogleTagManager } from "@next/third-parties/google";
 import NewsLetter from "../components/NewsLetter";
 
@@ -66,7 +66,9 @@ export default function RootLayout({ children }) {
           crossorigin="anonymous"></Script>
         <div className="" />
         <Header />
-        { children }
+        <GoogleTagManager gtmId="G-JDPPXZPD6Q" />
+
+        {children}
         <NewsLetter />
         <Footer />
       </body>
