@@ -11,17 +11,17 @@ const links = [
   {
     title: "ANA SAYFA",
     href: "/",
-    src: "home.svg"
+    src: "home.jpg"
   },
   {
     title: "Blog",
     href: "/blog",
-    src: "blog.svg"
+    src: "blog.jpg"
   },
   {
     title: "İLETİŞİM",
     href: "/contact",
-    src: "contact.svg"
+    src: "contact.jpg"
   },
   // {
   //   title: "Portfolyo",
@@ -31,7 +31,7 @@ const links = [
   {
     title: "HAKKIMIZDA",
     href: "/about",
-    src: "about.svg"
+    src: "about.jpg"
   }
 ]
 
