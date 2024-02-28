@@ -13,7 +13,7 @@
   ```
 */
 import { CalendarDaysIcon, HandRaisedIcon } from "@heroicons/react/24/outline";
-
+import CoolButton from "./Elements/EncryptButton";
 export default function NewsLetter() {
   return (
     <div className="relative items-center isolate overflow-hidden bg-first rounded-3xl mx-2 my-12 lg:my-4 md:mx-12 py-8 md:py-16 ">
@@ -40,11 +40,12 @@ export default function NewsLetter() {
                 className="min-w-0 flex-auto rounded-md border-0 bg-white px-3.5 py-2 text-black shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
                 placeholder="email@gmail.com"
               />
-              <button
+              {/* <button
                 type="submit"
                 className="flex-none rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-first shadow-sm hover:bg-red-500 hover:text-white duration-1100 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500">
                 Abone Ol
-              </button>
+              </button> */}
+              <CoolButton />
             </div>
           </div>
           <dl className="hidden lg:flex flex-row items-center lg:justify-between text-left text-wrap gap-x-8 gap-y-6  lg:pt-2">

@@ -20,7 +20,7 @@ const links = [
   },
   {
     title: "İLETİŞİM",
-    href: "/about",
+    href: "/contact",
     src: "home.png"
   },
   {

@@ -19,7 +19,7 @@ const page = () => {
   ];
   return (
     <div className="pt-24">
-    <VoyageBlog />
+      <VoyageBlog />
       <BlogCategories categories={categories} />
       <HomeCoverSection blogs={allBlogs} />
       <FeaturedPosts blogs={allBlogs} />

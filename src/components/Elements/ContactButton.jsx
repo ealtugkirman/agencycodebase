@@ -1,9 +1,9 @@
 "use client"
 import { useRef, useState } from "react";
-import { FiLock } from "react-icons/fi";
+import { MdOutlineMessage } from "react-icons/md";
 import { motion } from "framer-motion";
 
-const CoolButton = () => {
+const ContactButton = () => {
   return (
     <div className="grid place-content-center">
       <EncryptButton />
@@ -11,11 +11,11 @@ const CoolButton = () => {
   );
 };
 
-const TARGET_TEXT = "Abone Ol";
+const TARGET_TEXT = "Gönder";
 const CYCLES_PER_LETTER = 2;
-const SHUFFLE_TIME = 50;
+const SHUFFLE_TIME = 100;
 
-const CHARS = "!@#$%^&*():{};|,.<>/?";
+const CHARS = "!VOYAGE";
 
 const EncryptButton = () => {
   const intervalRef = useRef(null);
@@ -64,10 +64,10 @@ const EncryptButton = () => {
       }}
       onMouseEnter={scramble}
       onMouseLeave={stopScramble}
-      className="group relative overflow-hidden rounded-lg border-[1px] border-light bg-light px-4 py-2 font-mono font-medium uppercase text-first transition-colors hover:text-first"
+      className="group relative overflow-hidden rounded-lg border-[1px] border-light bg-first px-4 py-2 font-mono font-medium uppercase text-light transition-colors hover:text-red-ç300"
     >
       <div className="relative z-10 flex items-center gap-2">
-        <FiLock />
+        <MdOutlineMessage />
         <span>{text}</span>
       </div>
       <motion.span
@@ -83,10 +83,10 @@ const EncryptButton = () => {
           duration: 1,
           ease: "linear",
         }}
-        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-indigo-400/0 from-40% via-indigo-400/100 to-indigo-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
+        className="duration-300 absolute inset-0 z-0 scale-125 bg-gradient-to-t from-red-400/0 from-40% via-red-400/100 to-red-400/0 to-60% opacity-0 transition-opacity group-hover:opacity-100"
       />
     </motion.button>
   );
 };
 
-export default CoolButton;
+export default ContactButton;
