@@ -1,6 +1,7 @@
 import React from "react";
 import footerImage from "../../../public/footerImage.webp";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -34,8 +35,6 @@ const Footer = () => {
             </ul>
 
             <ul className="mt-8 flex gap-6">
-       
-
               <li>
                 <a
                   href="#"
@@ -75,17 +74,12 @@ const Footer = () => {
                   </svg>
                 </a>
               </li>
-
-           
-
             </ul>
           </div>
 
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
             <div>
-              <p className="font-medium text-white ">
-                Hizmetlerimiz
-              </p>
+              <p className="font-medium text-white ">Hizmetlerimiz</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -100,7 +94,7 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                    Uygulama  Geliştirme
+                    Uygulama Geliştirme
                   </a>
                 </li>
 
@@ -116,16 +110,14 @@ const Footer = () => {
                   <a
                     href="#"
                     className="text-white transition hover:opacity-75 ">
-                Medya Yönetimi
+                    Medya Yönetimi
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <p className="font-medium text-white ">
-                DigitalVoyage.agency
-              </p>
+              <p className="font-medium text-white ">DigitalVoyage.agency</p>
 
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
@@ -160,19 +152,11 @@ const Footer = () => {
           <div className="sm:flex sm:items-center sm:justify-between">
             <ul className="flex flex-wrap gap-4 text-xs">
               <li>
-                <a
-                  href="#"
+                <Link
+                  href="/privacypolicy"
                   className="text-white transition hover:opacity-75">
-                  Şartlar ve Koşullar
-                </a>
-              </li>
-
-              <li>
-                <a
-                  href="#"
-                  className="text-white transition hover:opacity-75">
-                    Gizlilik Politikası
-                </a>
+                  Gizlilik Politikası
+                </Link>
               </li>
 
               <li>
@@ -185,7 +169,7 @@ const Footer = () => {
             </ul>
 
             <p className="mt-8 text-xs text-white sm:mt-0">
-              &copy; 2024. DigitalVoyage.agency Tüm hakları saklıdır..
+              &copy; 2024. DigitalVoyage.agency Tüm hakları saklıdır.
             </p>
           </div>
         </div>
