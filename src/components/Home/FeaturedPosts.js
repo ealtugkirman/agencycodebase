@@ -6,7 +6,7 @@ import BlogLayoutTwo from "../Blog/BlogLayoutTwo";
 const FeaturedPosts = ({ blogs }) => {
   const sortedBlogs = sortBlogs(blogs);
   return (
-    <section className="py-3 px-5 sm:px-10 md:px-24 flex flex-col items-center">
+    <section className="py-12 px-5 sm:px-10 md:px-24 flex flex-col items-center">
       <h2 className="w-full inline-block font-light  text-2xl md:text-4xl text-dark ">
         ÖNE ÇIKANLAR
       </h2>

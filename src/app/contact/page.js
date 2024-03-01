@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { Switch } from "@headlessui/react";
 import ContactButton from "@/src/components/Elements/ContactButton";
+import Link from "next/link";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -172,9 +173,9 @@ export default function Example() {
             </div>
             <Switch.Label className="text-sm leading-6 text-gray-600">
               Bunu seçerek gizlilik politikasını kabul ederseniz {""}
-              <a href="#" className="font-semibold text-indigo-600">
+              <Link href="/privacypolicy" className="font-semibold text-indigo-600">
                 Gizlilik&nbsp;Politikası
-              </a>
+              </Link>
               .
             </Switch.Label>
           </Switch.Group>

@@ -1,4 +1,5 @@
 import { format } from "date-fns";
+import { tr } from 'date-fns/locale'; // Import the Turkish locale
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -49,7 +50,7 @@ const BlogLayoutTwo = ({ blog }) => {
         </div>
 
         <span className=" capitalize mt-2 text-gray dark:text-light/50 font-semibold  text-xs sm:text-base">
-          {format(new Date(blog.publishedAt), "MMMM dd, yyyy")}
+          { format(new Date(blog.publishedAt), "dd MMMM yyyy", {locale: tr})}
         </span>
       </div>
     </div>

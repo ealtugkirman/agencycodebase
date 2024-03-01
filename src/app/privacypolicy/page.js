@@ -58,7 +58,7 @@ const PrivacyPolicyPage = () => {
       </div>
       <div>
         <h2 className="text-lg font-semibold">9. İletişim Bilgileri</h2>
-        <p>Sorularınız veya endişeleriniz varsa, lütfen contact@DigitalVoyage ile iletişime geçin.</p>
+        <p>Sorularınız veya endişeleriniz varsa, lütfen contact@digitalvoyage.agency ile iletişime geçin.</p>
       </div>
     </div>
   );

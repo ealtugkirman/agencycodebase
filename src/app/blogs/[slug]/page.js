@@ -103,7 +103,7 @@ export default function BlogPage({ params }) {
               { blog.title }
             </h1>
           </div>
-          <div className="absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/60 dark:bg-dark/40" />
+          <div className="absolute top-0 left-0 right-0 bottom-0 h-full bg-dark/70" />
           <Image
             src={ blog.image.filePath.replace("../public", "") }
             placeholder="blur"
@@ -119,13 +119,13 @@ export default function BlogPage({ params }) {
         <BlogDetails blog={ blog } slug={ params.slug } />
 
         <div className="grid grid-cols-12  gap-y-8 lg:gap-8 xl:gap-16 mt-8 px-5 md:px-24">
-          {/* small screnn table of content */ }
+          {/* small screnn İçerik */ }
           <div className="col-span-12  md:hidden  lg:col-span-4">
             <details
-              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-6 max-h-[80vh] overflow-hidden overflow-y-auto"
+              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-24 max-h-[100vh] mt-24 overflow-hidden overflow-y-auto"
               open>
               <summary className="text-lg font-semibold capitalize cursor-pointer">
-                Table Of Content
+                İçerik
               </summary>
               <ul className="mt-4 font-in text-base">
                 { blog.toc.map((heading) => {
@@ -157,14 +157,14 @@ export default function BlogPage({ params }) {
 
           {/* Blog Content */ }
           <RenderMdx blog={ blog } />
-          {/* Wide Screen TABLE of Content */ }
+          {/* Wide Screen İçerik */ }
 
           <div className="col-span-12 hidden md:block  lg:col-span-4">
             <details
-              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-6 max-h-[80vh] overflow-hidden overflow-y-auto"
+              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-20 max-h-[80vh] overflow-hidden overflow-y-auto"
               open>
               <summary className="text-lg font-semibold capitalize cursor-pointer">
-                Table Of Content
+                İçerik
               </summary>
               <ul className="mt-4 font-in text-base">
                 { blog.toc.map((heading) => {
