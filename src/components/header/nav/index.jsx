@@ -35,15 +35,15 @@ const links = [
   }
 ]
 
-export default function Index() {
+export default function Index({onLinkClick}) {
 
   const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
 
   return (
-    <motion.div variants={height} initial="initial" animate="enter" exit="exit" className={styles.nav}>
+    <motion.div onClick={onLinkClick} variants={height} initial="initial" animate="enter" exit="exit" className={styles.nav}>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
+          <Body  links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
           <Footer />
         </div>
         <Image src={links[selectedLink.index].src} isActive={selectedLink.isActive}/>
