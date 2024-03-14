@@ -1,50 +1,42 @@
 "use client";
-import Slider from "react-infinite-logo-slider";
 import tecvity from "../../public/clients/tecvity-logo.png";
 import hakemportal from "../../public/clients/hakemportalLogo.png";
 import cognizer from "../../public/clients/cognizerlogo.png";
 import voyage from "../../public/clients/altcoinvoyage.png";
 import atilogo from "../../public/clients/atilogo.png";
 import psykri from "../../public/clients/psykri.png";
-
+import bilkent from "../../public/clients/bilkent-logo.png";
 import Image from "next/image";
 
 const LogoSlider = () => {
   return (
-    <div className="h-80 py-12 md:py-16 lg:py-24 items-center">
-      <h1 className="text-dark mb-8 text-xl lg:text-2xl font-bold opacity-70 text-center">
-        Müşterilerimiz
-      </h1>
-      <Slider
-        className="shadow-xl"
-        width="250px"
-        duration={15}
-        // pauseOnHover={true}
-        blurBorders={false}
-        blurBoderColor={"#fff"}>
-        <Slider.Slide>
-          <Image src={tecvity} alt="any" className="w-32 xl:w-48" />
-        </Slider.Slide>
-        <Slider.Slide>
-          <Image src={psykri} alt="any3" className="w-32 xl:w-48" />
-        </Slider.Slide>
-        <Slider.Slide>
-          <Image src={hakemportal} alt="any2" className="w-32 xl:w-48" />
-        </Slider.Slide>
-        <Slider.Slide>
-          <Image src={cognizer} alt="any3" className="w-32 xl:w-48" />
-        </Slider.Slide>
-        <Slider.Slide>
-          <Image src={voyage} alt="any3" className="w-32 xl:w-48" />
-        </Slider.Slide>
-        <Slider.Slide>
-          <Image src={atilogo} alt="any3" className="w-32 xl:w-48" />
-        </Slider.Slide>
-
-        {/* <Slider.Slide>
-          <div>Other component...</div>
-        </Slider.Slide> */}
-      </Slider>
+    <div className="flex px-12  py-24 flex-col items-center justify-center">
+      <h1 className="text-2xl md:text-4xl font-semibold text-gradient">Müşterilerimiz</h1>
+      <div className="grid gap-y-12 gap-x-24 items-center grid-cols-2 md:grid-cols-4 mt-12">
+        <div className="" >
+          <Image src={tecvity} alt="" width={200} height={80} />
+        </div>
+        <div className="" >
+          <Image src={bilkent} alt="" width={200} height={80} />
+        </div>
+        <div className="" >
+          <Image src={hakemportal} alt="" width={200} height={80} />
+        </div>
+        <div className="" >
+          <Image src={atilogo} alt="" width={200} height={80} />
+        </div>
+      </div>
+      <div className="grid gap-y-12 gap-x-24 items-center grid-cols-2 md:grid-cols-3 mt-12">
+        <div className="" >
+          <Image src={voyage} alt="" width={200} height={80} />
+        </div>
+        <div className="" >
+          <Image src={cognizer} alt="" width={200} height={80} />
+        </div>
+        <div className="" >
+          <Image src={psykri} alt="" width={200} height={80} />
+        </div>
+      </div>
     </div>
   );
 };

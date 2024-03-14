@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       colors: {
         dark: "#000000",
-        light: "#FAF6F0",
+        light: "#fffff",
         first: "#311ed6",
         newcolor: "#311ed6",
         accent: "#7B00D3",
@@ -21,13 +21,22 @@ module.exports = {
         in: ["var(--font-in)"]
       },
       animation:{
-        roll: "roll 24s linear infinite"
+        roll: "roll 24s linear infinite",
+        "meteor-effect": "meteor 5s linear infinite"
       },
       keyframes:{
         roll:{
           "0%": {transform: "translateX(100%)"},
           "100%": {transform: "translateX(-100%)"}
-        }
+        },
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
+          },
+        },
       },
       screens:{
         sxl: "1180px",
