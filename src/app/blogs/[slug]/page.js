@@ -120,9 +120,9 @@ export default function BlogPage({ params }) {
 
         <div className="grid grid-cols-12  gap-y-8 lg:gap-8 xl:gap-16 mt-8 px-5 md:px-24">
           {/* small screnn İçerik */ }
-          <div className="col-span-12  md:hidden  lg:col-span-4">
+          <div className="col-span-12   lg:col-span-4">
             <details
-              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-24 max-h-[100vh] mt-24 overflow-hidden overflow-y-auto"
+              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light  p-4 sticky top-24 max-h-[100vh]  overflow-hidden overflow-y-auto"
               open>
               <summary className="text-lg font-semibold capitalize cursor-pointer">
                 İçerik
@@ -159,7 +159,7 @@ export default function BlogPage({ params }) {
           <RenderMdx blog={ blog } />
           {/* Wide Screen İçerik */ }
 
-          <div className="col-span-12 hidden md:block  lg:col-span-4">
+          <div className="col-span-12 hidden  lg:col-span-4">
             <details
               className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-20 max-h-[80vh] overflow-hidden overflow-y-auto"
               open>
