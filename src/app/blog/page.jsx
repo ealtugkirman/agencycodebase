@@ -20,7 +20,7 @@ const page = () => {
   return (
     <div className="pt-24">
       <VoyageBlog />
-      <BlogCategories categories={categories} />
+      {/* <BlogCategories categories={categories} /> */}
       <HomeCoverSection blogs={allBlogs} />
       <FeaturedPosts blogs={allBlogs} />
       <RecentPosts blogs={allBlogs} />

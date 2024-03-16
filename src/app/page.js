@@ -2,7 +2,7 @@
 // import { allBlogs } from "contentlayer/generated";
 // import Script from "next/script";
 import { useEffect, useState } from "react";
-import { Features } from "../components/Features";
+// import { Features } from "../components/Features";
 import Herosection from "../components/Herosection";
 import { AnimatePresence } from "framer-motion";
 import Homen from "../components/Homen/Homen";
@@ -40,7 +40,7 @@ export default function Home() {
      </div>
       <Herosection />
       <LogoSlider />
-      <Features />
+      {/* <Features /> */}
       <WorkWithUs />
       <WhoAreWe />
     </main>
