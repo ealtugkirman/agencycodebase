@@ -122,7 +122,7 @@ export default function BlogPage({ params }) {
           {/* small screnn İçerik */ }
           <div className="col-span-12   lg:col-span-4">
             <details
-              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light  p-4 sticky top-24 max-h-[100vh]  overflow-hidden overflow-y-auto"
+              className="border-[1px] border-solid border-dark  text-dark p-4 sticky top-24 max-h-[100vh]  overflow-hidden overflow-y-auto"
               open>
               <summary className="text-lg font-semibold capitalize cursor-pointer">
                 İçerik
@@ -161,7 +161,7 @@ export default function BlogPage({ params }) {
 
           <div className="col-span-12 hidden  lg:col-span-4">
             <details
-              className="border-[1px] border-solid border-dark dark:border-light text-dark dark:text-light rounded-lg p-4 sticky top-20 max-h-[80vh] overflow-hidden overflow-y-auto"
+              className="border-[1px] border-solid border-dark  text-dark  rounded-lg p-4 sticky top-20 max-h-[80vh] overflow-hidden overflow-y-auto"
               open>
               <summary className="text-lg font-semibold capitalize cursor-pointer">
                 İçerik
