@@ -1,5 +1,5 @@
 import "./globals.css";
-import { cx } from "@/src/utils";
+import { cx } from "../../src/utils";
 import { Inter, Manrope, Work_Sans } from "next/font/google";
 import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
@@ -64,7 +64,7 @@ export default function RootLayout({ children }) {
           async
           // src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8265654758847402"
           crossorigin="anonymous"></Script>
-        <div className="" />
+        <div />
         <Header />
         <GoogleTagManager gtmId="G-JDPPXZPD6Q" />
 

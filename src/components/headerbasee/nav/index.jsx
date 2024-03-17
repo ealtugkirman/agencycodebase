@@ -4,40 +4,47 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { height } from '../anim';
 import Body from './Body';
+import Footer from './Footer';
 import Image from './Image';
 
 const links = [
   {
-    title: "ANA SAYFA",
+    title: "Home",
     href: "/",
-    src: "home.jpg"
+    src: "home.png"
   },
   {
-    title: "Blog",
-    href: "/blog",
-    src: "blog.jpg"
+    title: "Shop",
+    href: "/shop",
+    src: "shop.png"
   },
   {
-    title: "İLETİŞİM",
-    href: "/contact",
-    src: "contact.jpg"
-  },
-  {
-    title: "HAKKIMIZDA",
+    title: "About Us",
     href: "/about",
-    src: "about.jpg"
+    src: "home.png"
+  },
+  {
+    title: "Lookbook",
+    href: "/lookbook",
+    src: "lookbook.png"
+  },
+  {
+    title: "Contact",
+    href: "/contact",
+    src: "contact.png"
   }
 ]
 
-export default function Index({onLinkClick}) {
+export default function Index() {
 
   const [selectedLink, setSelectedLink] = useState({isActive: false, index: 0});
 
   return (
-    <motion.div onClick={onLinkClick} variants={height} initial="initial" animate="enter" exit="exit" className={styles.nav}>
+    <motion.div variants={height} initial="initial" animate="enter" exit="exit" className={styles.nav}>
       <div className={styles.wrapper}>
         <div className={styles.container}>
-          <Body links={ links } selectedLink={ selectedLink } setSelectedLink={ setSelectedLink } />
+          <Body links={links} selectedLink={selectedLink} setSelectedLink={setSelectedLink}/>
+          <Footer />
         </div>
         <Image src={links[selectedLink.index].src} isActive={selectedLink.isActive}/>
       </div>

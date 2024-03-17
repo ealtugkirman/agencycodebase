@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 // import { Features } from "../components/Features";
 import Herosection from "../components/Herosection";
 import { AnimatePresence } from "framer-motion";
-import Homen from "../components/Homen/Homen";
+//  import Homen from "../components/Homen/Homen";
 import Preloader from "../components/Preloader"
 import LogoSlider from "../components/LogoSlider";
 import WhoAreWe from "../components/WhoAreWe";
@@ -35,9 +35,9 @@ export default function Home() {
       <AnimatePresence mode='wait'>
         { isLoading && <Preloader /> }
       </AnimatePresence>
-      <div className="hidden lg:block" >
+      {/* <div className="hidden lg:block" >
         <Homen />
-     </div>
+     </div> */}
       <Herosection />
       <LogoSlider />
       {/* <Features /> */}

@@ -1,9 +1,10 @@
+"use client"
 import React from "react";
 import { allBlogs } from "contentlayer/generated";
 import FeaturedPosts from "../../components/Home/FeaturedPosts";
 import RecentPosts from "../../components/Home/RecentPosts";
 import HomeCoverSection from "@/src/components/Home/HomeCoverSection";
-import BlogCategories from "@/src/components/Blog/BlogCategories";
+// import BlogCategories from "@/src/components/Blog/BlogCategories";
 import VoyageBlog from "@/src/components/Blog/VoyageBlog";
 
 const page = () => {

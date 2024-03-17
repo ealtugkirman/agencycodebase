@@ -1,9 +1,18 @@
+// {
+//   "compilerOptions": {
+//     "paths": {
+//       "@/*": ["./*"],
+//       "contentlayer/generated": ["./.contentlayer/generated"]
+//     }
+//   }
+// }
+
 {
   "compilerOptions": {
-    "jsx": "react",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["./*"],
-      "contentlayer/generated": ["./.contentlayer/generated"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
     }
   }
 }
