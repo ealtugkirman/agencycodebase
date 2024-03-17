@@ -59,7 +59,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={cx(inter.variable, worksans.variable, "font-mr bg-light")}>
+        className={cx(inter.variable, worksans.variable,)}>
         <Script
           async
           // src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8265654758847402"

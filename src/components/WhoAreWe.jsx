@@ -4,12 +4,12 @@ import Lottie from "lottie-react";
 
 export default function WhoAreWe() {
   return (
-    <div className="relative  isolate overflow-hidden bg-light px-8 py-32 lg:overflow-visible lg:px-6">
+    <div className="relative font-af  isolate overflow-hidden bg-light px-8 py-32 lg:overflow-visible lg:px-6">
       <div className="flex flex-col  mx-8 md:mx-16 lg:mx-16 ">
         <h1 className="mt-2 text-center text-xl md:text-2xl lg:text-4xl font-bold  text-first ">
           Yolculuğunuzu Geleceğe Taşıyoruz{" "}
         </h1>
-        <p className="mt-4 md:mt-6 text-md  md:text-xl lg:text-3xl leading-6 font-mr text-gray-700">
+        <p className="mt-4 md:mt-6 text-md  md:text-xl lg:text-3xl leading-6  text-gray-700">
           Digital Voyage, adını büyük keşiflerin ve maceraların başlangıcı olan
           "yolculuk" kavramından alır. Bizler, dijital dünyanın sonsuz
           olanaklarını keşfetmeniz için size rehberlik eden bir dijital ajansız.

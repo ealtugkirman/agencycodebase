@@ -16,7 +16,7 @@ const BlogLayoutTwo = ({ blog }) => {
     }
   }
   return (
-    <div className="border-2  grid grid-cols-1  md:grid-cols-2 border-black text-dark dark:text-light">
+    <div className="border-2  grid grid-cols-1  md:grid-cols-2 border-black text-dark ">
       <div className="grid-cols-1 md:grid-rows-1">
         <Link href={blog.url} className="bg-red-200">
           <Image
@@ -40,7 +40,7 @@ const BlogLayoutTwo = ({ blog }) => {
           <Link href={blog.url} className=" ">
             <h2 className="font-semibold capitalize text-xl mt-4">
               <span
-                className="bg-gradient-to-r mt-2 from-accent/50 dark:from-accentDark/50 to-accent/50 dark:to-accentDark/50 bg-[length:0px_6px]
+                className="bg-gradient-to-r mt-2 from-accent/50 to-accent/50 bg-[length:0px_6px]
                 group-hover:bg-[length:100%_6px] bg-left-bottom bg-no-repeat transition-[background-size] duration-500 ">
                 {blog.title}
               </span>
@@ -49,7 +49,7 @@ const BlogLayoutTwo = ({ blog }) => {
           <p className="mt-4 text-xs">{shortedBlog(blog.description)}</p>
         </div>
 
-        <span className=" capitalize mt-2 text-gray dark:text-light/50 font-semibold  text-xs sm:text-base">
+        <span className=" capitalize mt-2 text-gray  font-semibold  text-xs sm:text-base">
           { format(new Date(blog.publishedAt), "dd MMMM yyyy", {locale: tr})}
         </span>
       </div>
