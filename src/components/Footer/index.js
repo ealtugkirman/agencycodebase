@@ -78,43 +78,7 @@ const Footer = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2">
-            <div>
-              <p className="font-medium text-white ">Hizmetlerimiz</p>
-
-              <ul className="mt-6 space-y-4 text-sm">
-                <li>
-                  <a
-                    href="#"
-                    className="text-white transition hover:opacity-75 ">
-                    Web Geliştirme
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
-                    className="text-white transition hover:opacity-75 ">
-                    Uygulama Geliştirme
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
-                    className="text-white transition hover:opacity-75 ">
-                    Dijital Ürünler
-                  </a>
-                </li>
-
-                <li>
-                  <a
-                    href="#"
-                    className="text-white transition hover:opacity-75 ">
-                    Medya Yönetimi
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <div></div>
 
             <div>
               <p className="font-medium text-white ">DigitalVoyage.agency</p>
@@ -122,7 +86,7 @@ const Footer = () => {
               <ul className="mt-6 space-y-4 text-sm">
                 <li>
                   <a
-                    href="#"
+                    href="/about"
                     className="text-white transition hover:opacity-75 ">
                     Hakkımızda
                   </a>
@@ -130,7 +94,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/about"
                     className="text-white transition hover:opacity-75 ">
                     Ekip ile Tanışın
                   </a>
@@ -138,7 +102,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/about"
                     className="text-white transition hover:opacity-75 ">
                     Portfolyo
                   </a>
