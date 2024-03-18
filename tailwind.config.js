@@ -23,8 +23,7 @@ module.exports = {
       fontFamily:{
         mr: ["var(--font-mr)"],
         in: ["var(--font-in)"],
-        af: ['Didact+Gothic', 'serif'],
-
+        it: ["var(--font-it)"],
       },
     },
   },

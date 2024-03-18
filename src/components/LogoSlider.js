@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const LogoSlider = () => {
   return (
-    <div className="flex px-12  py-24 flex-col items-center justify-center">
+    <div className="flex px-12 font-it py-24 flex-col items-center justify-center">
       <h1 className="text-2xl md:text-4xl font-semibold text-gradient">Müşterilerimiz</h1>
       <div className="grid gap-y-12 gap-x-24 items-center grid-cols-2 md:grid-cols-4 mt-12">
         <div className="" >

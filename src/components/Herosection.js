@@ -7,7 +7,7 @@ import { TypeAnimation } from "react-type-animation";
 
 const Herosection = () => {
   return (
-    <div className="flex flex-col  lg:pt-16 h-max">
+    <div className="flex flex-col font-it lg:pt-16 h-max">
       <div className="flex ml-4 md:ml-28 text-gradient space-y-4 pt-32 justify-start text-left">
         <div>
           {" "}

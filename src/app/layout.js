@@ -1,6 +1,6 @@
 import "./globals.css";
 import { cx } from "../../src/utils";
-import { Inter, Manrope, Work_Sans } from "next/font/google";
+import { Inter, Inter_Tight, Work_Sans } from "next/font/google";
 import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
@@ -18,6 +18,12 @@ const worksans = Work_Sans({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-mr",
+});
+
+const interTight = Inter_Tight({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-it",
 });
 
 export const metadata = {
@@ -59,7 +65,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={cx(inter.variable, worksans.variable,)}>
+        className={cx(inter.variable, worksans.variable, interTight.variable)}>
         <Script
           async
           // src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8265654758847402"

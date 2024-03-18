@@ -27,7 +27,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className="flex font-af flex-col">
+    <main className="flex font-it flex-col">
       <AnimatePresence mode='wait'>
         { isLoading && <Preloader /> }
       </AnimatePresence>
