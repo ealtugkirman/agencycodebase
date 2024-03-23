@@ -1,10 +1,10 @@
 import Image from "next/image";
 import bg from "../../public/whoarewe.avif";
 const links = [
-  { name: "Web Geliştirme", href: "#" },
-  { name: "Mobil Uygulama", href: "#" },
-  { name: "Medya Yönetimi", href: "#" },
-  { name: "Dijital Ürünler", href: "#" },
+  { name: "Web Geliştirme", href: "about" },
+  { name: "Mobil Uygulama", href: "about" },
+  { name: "Medya Yönetimi", href: "about" },
+  { name: "Dijital Ürünler", href: "about" },
 ];
 const stats = [
   { name: "Kişilik Ekip", value: "12" },

@@ -69,9 +69,7 @@ export default function Index() {
                     </div>
                 </div>
                 <motion.div variants={opacity} animate={!isActive ? 'open' : 'closed'} className={styles.shopContainer}>
-                    <div className={styles.el}>
-                        <p>BİZE ULAŞIN</p>
-                    </div>
+                <p className='text-white' >Bİze Ulaşın</p>
                 </motion.div>
             </div>
             <motion.div variants={background} initial="initial" animate={isActive ? 'open' : 'closed'} className={styles.background}></motion.div>
